@@ -68,7 +68,7 @@ button, input, select { font: inherit; color: inherit; }
   .topbar nav a { flex: 1; text-align: center; padding: 7px 4px; }
 }
 .content { max-width: 720px; margin: 0 auto; padding: 16px 16px 120px; }
-.welcome { max-width: 400px; margin: 0 auto; padding: 12vh 16px 40px; }
+.welcome { max-width: 420px; margin: 0 auto; padding: 8px 16px 48px; }
 
 /* Controls */
 .card {
@@ -230,3 +230,35 @@ a { color: var(--accent); }
 .avatar img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
 .combo-list li.active { background: var(--accent-soft); }
 .combo-list .combo-empty { color: var(--muted); cursor: default; }
+
+/* Landing */
+.landing { min-height: 100vh; background: radial-gradient(ellipse 80% 50% at 50% 38%, rgba(255, 122, 26, 0.13), transparent 70%); }
+.logo-wall {
+  display: flex; flex-direction: column; gap: 14px; padding: 28px 0 8px; overflow: hidden;
+  mask-image: linear-gradient(90deg, transparent, #000 15%, #000 85%, transparent);
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 15%, #000 85%, transparent);
+}
+.logo-row { display: flex; gap: 28px; width: max-content; animation: drift 60s linear infinite; opacity: 0.55; }
+.logo-row.reverse { animation-direction: reverse; animation-duration: 75s; opacity: 0.32; }
+@keyframes drift { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .logo-row { animation: none; } }
+
+.hero { text-align: center; padding: 20px 0 8px; }
+.hero .wordmark { font-size: clamp(3rem, 15vw, 4.2rem); line-height: 1.05; }
+.tagline { margin: 6px 0 18px; font-weight: 600; font-size: 1.05rem; }
+.countdown {
+  display: inline-flex; align-items: baseline; gap: 8px; flex-wrap: wrap; justify-content: center;
+  padding: 10px 18px; border-radius: 999px;
+  background: var(--accent-soft); border: 1px solid rgba(255, 122, 26, 0.4);
+}
+.countdown strong { color: #ffb36b; font-size: 1.15rem; font-variant-numeric: tabular-nums; }
+
+.how-steps { list-style: none; padding: 0; margin: 24px 0 6px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.how-steps li {
+  display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;
+  padding: 12px 6px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  font-size: 0.78rem; line-height: 1.3;
+}
+.how-steps strong { font-size: 0.9rem; }
+.how-icon { font-size: 1.4rem; }
+.center-link { text-align: center; margin: 8px 0 0; font-size: 0.9rem; }

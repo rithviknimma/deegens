@@ -1,7 +1,16 @@
 import { useState, type FormEvent } from 'react';
 import { Link } from 'react-router-dom';
+import { LogoWall } from '../components/LogoWall';
 import { useAuth } from '../lib/auth';
+import { PUBLIC_LOCK_AT, SEASON_LABEL } from '../lib/season';
 import { errorMessage } from '../lib/supabase';
+import { formatCountdown, useNow } from '../lib/useNow';
+
+const STEPS = [
+  { icon: '🏀', title: 'Rank', text: 'Seed all 30 teams + call the champs' },
+  { icon: '🔒', title: 'Lock', text: 'Picks lock & reveal at opening tip' },
+  { icon: '🎁', title: 'Wrapped', text: 'See how you did in June' },
+];
 
 export function Welcome() {
   const { join, login } = useAuth();
@@ -11,6 +20,8 @@ export function Welcome() {
   const [pin, setPin] = useState('');
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
+  const now = useNow();
+  const lockMs = new Date(PUBLIC_LOCK_AT).getTime() - now;
 
   async function submit(e: FormEvent) {
     e.preventDefault();
@@ -27,10 +38,35 @@ export function Welcome() {
   }
 
   return (
+    <div className="landing">
+    <LogoWall />
     <main className="welcome">
-      <h1 className="wordmark">deegens</h1>
-      <p className="muted">
-        NBA predictions for the group. Picks lock at opening tip. <Link to="/how">How it works →</Link>
+      <header className="hero">
+        <h1 className="wordmark">deegens</h1>
+        <p className="tagline">{SEASON_LABEL} NBA predictions</p>
+        <div className="countdown">
+          {lockMs > 0 ? (
+            <>
+              <span className="muted">Picks lock in</span>
+              <strong>{formatCountdown(lockMs)}</strong>
+            </>
+          ) : (
+            <span>🔒 Preseason picks are locked. Join for daily picks and the bracket.</span>
+          )}
+        </div>
+      </header>
+
+      <ol className="how-steps">
+        {STEPS.map((s) => (
+          <li key={s.title}>
+            <span className="how-icon">{s.icon}</span>
+            <strong>{s.title}</strong>
+            <span className="muted">{s.text}</span>
+          </li>
+        ))}
+      </ol>
+      <p className="center-link">
+        <Link to="/how">How scoring works →</Link>
       </p>
 
       <div className="tabs" role="tablist">
@@ -73,5 +109,6 @@ export function Welcome() {
         </button>
       </form>
     </main>
+    </div>
   );
 }

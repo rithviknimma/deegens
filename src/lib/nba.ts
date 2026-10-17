@@ -25,7 +25,13 @@ function people(list: Person[]): Person[] {
     .sort((a, b) => a.name.localeCompare(b.name));
 }
 
-// ESPN's image resizer: ~8 KB thumbnails instead of ~200 KB full PNGs.
+// ESPN's image resizer (combiner) serves small thumbnails instead of the full 500px PNGs.
+export function teamLogoUrl(team: Team, px: number) {
+  if (!team.logo) return null;
+  return `https://a.espncdn.com/combiner/i?img=${new URL(team.logo).pathname}&w=${px}&h=${px}`;
+}
+
+// ~8 KB thumbnails instead of ~200 KB full PNGs.
 export function headshotUrl(espnId: string) {
   return `https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/${espnId}.png&w=96&h=70&scale=crop&cquality=60`;
 }
