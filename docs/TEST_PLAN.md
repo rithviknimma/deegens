@@ -6,7 +6,7 @@ Note anything that fails and we'll go through it together.
 ## A. Joining
 
 1. **Rules before login.** Open the site. On the Join screen, tap *How it works →*.
-   ✅ Rules page shows with a *Back* link; numbers match the points we agreed (5 / 2 / 10 / 15 / 25 / 10). App is named **CourtCast**.
+   ✅ Rules page shows with a *Back* link; numbers match the points we agreed (5 / 2 / 10 / 15 / 25 / 10). App is named **deegens**.
 2. **Wrong passcode.** Join tab: wrong passcode, name `Rithvik`, PIN `123456`.
    ✅ "Wrong passcode". Nothing else happens.
 3. **Join as admin.** Same form with the correct passcode.
@@ -26,10 +26,10 @@ Note anything that fails and we'll go through it together.
 10. **East/West tabs.** Reorder East, switch to West, switch back. ✅ East order is kept.
 11. **#1 seeds.** ✅ The Playoffs section names your current #1 East and West teams and updates when you reorder.
 12. **Champion choice.** Pick East and West champs. ✅ Two buttons appear for NBA champ. Pick one, then change the East champ → ✅ champ resets if it was the old East team.
-13. **Award dropdowns.** Tap MVP. ✅ A native picker opens (wheel/list on iPhone), players grouped under team names.
-14. **Rookie list.** Open ROY. ✅ Only rookies are listed (no LeBron James).
-15. **Coach list.** Open COY. ✅ One coach per team.
-16. **Clear an award.** Set DPOY, then choose *Pick one* again. ✅ Field goes back to empty.
+13. **Autocomplete.** Tap MVP and type `shai`. ✅ A list opens under the field showing *Shai Gilgeous-Alexander · OKC*; tap it → field fills and the keyboard closes.
+14. **Accents + partial names.** Type `jokic` → ✅ *Nikola Jokić* appears. Type `wemb` → ✅ *Victor Wembanyama*.
+15. **Lists are filtered.** In ROY type `lebron` → ✅ "No matches" (rookies only). In COY, type a coach's last name → ✅ only coaches.
+16. **Typing without choosing.** Type `xyz` in DPOY and tap elsewhere → ✅ field reverts (nothing saved). Tap × on a filled award → ✅ it clears.
 17. **Save.** Tap *Save picks*. ✅ "Saved ✓". Bottom bar says "All changes saved" and the remaining-picks count is right.
 18. **Unsaved warning.** Reorder a team, then try to refresh/close the tab. ✅ Browser asks if you want to leave.
 19. **Persistence.** Refresh. ✅ Your order and picks are exactly as saved.

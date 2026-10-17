@@ -14,28 +14,29 @@ export const TEAMS = teamsJson as Team[];
 export const TEAM_BY_ID = Object.fromEntries(TEAMS.map((t) => [t.id, t])) as Record<string, Team>;
 export const teamsIn = (conf: Conference) => TEAMS.filter((t) => t.conference === conf);
 
-export type OptionGroup = { label: string; names: string[] };
+export type Person = { name: string; team: string };
 
-// Dropdown options grouped by team (sorted by team name), names sorted within each team.
-function byTeam(people: { name: string; team: string }[]): OptionGroup[] {
-  return TEAMS.map((t) => ({
-    label: t.name,
-    names: [...new Set(people.filter((p) => p.team === t.id).map((p) => p.name))].sort(),
-  })).filter((g) => g.names.length > 0);
+// One entry per name, sorted by name.
+function people(list: Person[]): Person[] {
+  const seen = new Set<string>();
+  return list
+    .filter((p) => !seen.has(p.name) && seen.add(p.name))
+    .map((p) => ({ name: p.name, team: p.team }))
+    .sort((a, b) => a.name.localeCompare(b.name));
 }
 
-const PLAYER_GROUPS = byTeam(playersJson.players);
-const ROOKIE_GROUPS = byTeam(playersJson.players.filter((p) => p.rookie));
-const COACH_GROUPS = byTeam(playersJson.coaches);
+const PLAYERS = people(playersJson.players);
+const ROOKIES = people(playersJson.players.filter((p) => p.rookie));
+const COACHES = people(playersJson.coaches);
 
 // Award picks must come from these lists (the database checks too, via award_options).
 export const AWARDS = [
-  { key: 'mvp', label: 'MVP', groups: PLAYER_GROUPS },
-  { key: 'roy', label: 'Rookie of the Year', groups: ROOKIE_GROUPS },
-  { key: 'dpoy', label: 'Defensive Player', groups: PLAYER_GROUPS },
-  { key: 'smoy', label: 'Sixth Man', groups: PLAYER_GROUPS },
-  { key: 'mip', label: 'Most Improved', groups: PLAYER_GROUPS },
-  { key: 'coy', label: 'Coach of the Year', groups: COACH_GROUPS },
+  { key: 'mvp', label: 'MVP', options: PLAYERS },
+  { key: 'roy', label: 'Rookie of the Year', options: ROOKIES },
+  { key: 'dpoy', label: 'Defensive Player', options: PLAYERS },
+  { key: 'smoy', label: 'Sixth Man', options: PLAYERS },
+  { key: 'mip', label: 'Most Improved', options: PLAYERS },
+  { key: 'coy', label: 'Coach of the Year', options: COACHES },
 ] as const;
 
 export const BONUS_LABELS: Record<string, string> = {

@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useState } from 'react';
+import { PersonCombobox } from '../components/PersonCombobox';
 import { SeedList } from '../components/SeedList';
 import { TeamLogo } from '../components/TeamLogo';
 import { useAuth } from '../lib/auth';
-import { AWARDS, TEAM_BY_ID, teamsIn, type Conference, type OptionGroup } from '../lib/nba';
+import { AWARDS, TEAM_BY_ID, teamsIn, type Conference } from '../lib/nba';
 import { POINTS, PLAYOFF_LINE } from '../lib/scoring';
 import { errorMessage, fetchCurrentSeason, supabase, type Season } from '../lib/supabase';
 import { formatCountdown, useNow } from '../lib/useNow';
@@ -183,18 +184,18 @@ export function Picks() {
 
       <section>
         <h2>Awards</h2>
-        <p className="hint">{POINTS.award} pts each. Players are grouped by team.</p>
+        <p className="hint">{POINTS.award} pts each. Start typing and tap a name.</p>
         <div className="card form">
           {AWARDS.map((a) => (
-            <label key={a.key}>
-              {a.label}
-              <PersonSelect
-                groups={a.groups}
+            <div className="field" key={a.key}>
+              <span>{a.label}</span>
+              <PersonCombobox
+                options={a.options}
                 value={bonus[a.key] ?? ''}
                 disabled={locked}
                 onChange={(v) => updateBonus(a.key, v)}
               />
-            </label>
+            </div>
           ))}
         </div>
       </section>
@@ -212,36 +213,6 @@ export function Picks() {
       )}
       {status && <p className={status.kind === 'ok' ? 'success' : 'error'}>{status.text}</p>}
     </div>
-  );
-}
-
-function PersonSelect({
-  groups,
-  value,
-  disabled,
-  onChange,
-}: {
-  groups: readonly OptionGroup[];
-  value: string;
-  disabled: boolean;
-  onChange: (v: string) => void;
-}) {
-  // Keep a saved pick visible even if that name has since dropped off the list.
-  const listed = groups.some((g) => g.names.includes(value));
-  return (
-    <select value={value} disabled={disabled} onChange={(e) => onChange(e.target.value)}>
-      <option value="">Pick one</option>
-      {value && !listed && <option value={value}>{value}</option>}
-      {groups.map((g) => (
-        <optgroup key={g.label} label={g.label}>
-          {g.names.map((n) => (
-            <option key={n} value={n}>
-              {n}
-            </option>
-          ))}
-        </optgroup>
-      ))}
-    </select>
   );
 }
 

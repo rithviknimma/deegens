@@ -202,3 +202,25 @@ details { background: var(--surface); border: 1px solid var(--border); border-ra
 summary { cursor: pointer; font-weight: 700; }
 details ul { padding-left: 18px; margin: 10px 0 0; display: flex; flex-direction: column; gap: 6px; font-size: 0.9rem; }
 a { color: var(--accent); }
+
+/* Autocomplete */
+.combo { position: relative; display: flex; flex-direction: column; }
+.combo input { padding-right: 36px; }
+.combo-clear {
+  position: absolute; right: 4px; top: 50%; transform: translateY(-50%);
+  width: 32px; height: 32px; border: 0; background: none; color: var(--muted); font-size: 1.2rem; cursor: pointer;
+}
+.combo-list {
+  position: absolute; top: calc(100% + 4px); left: 0; right: 0; z-index: 20;
+  list-style: none; margin: 0; padding: 4px;
+  background: var(--surface-2); border: 1px solid var(--border); border-radius: 10px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+  max-height: min(45vh, 360px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+.combo-list li { display: flex; justify-content: space-between; gap: 12px; padding: 11px 10px; border-radius: 7px; cursor: pointer; }
+.combo-list li.active { background: var(--accent-soft); }
+.combo-list .combo-empty { color: var(--muted); cursor: default; }
