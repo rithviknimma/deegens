@@ -28,7 +28,7 @@ export function Welcome() {
 
   return (
     <main className="welcome">
-      <h1 className="wordmark">CourtCast</h1>
+      <h1 className="wordmark">deegens</h1>
       <p className="muted">
         NBA predictions for the group. Picks lock at opening tip. <Link to="/how">How it works →</Link>
       </p>

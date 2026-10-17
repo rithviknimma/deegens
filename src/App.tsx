@@ -22,7 +22,7 @@ function Shell() {
   return (
     <>
       <header className="topbar">
-        <span className="wordmark small">CourtCast</span>
+        <span className="wordmark small">deegens</span>
         <nav>
           <NavLink to="/" end>Picks</NavLink>
           <NavLink to="/group">Group</NavLink>

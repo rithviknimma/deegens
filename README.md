@@ -1,4 +1,4 @@
-# CourtCast
+# deegens
 
 Private NBA predictions for the group. See [docs/SPEC.md](docs/SPEC.md) for the full design.
 

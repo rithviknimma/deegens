@@ -1,4 +1,4 @@
-# CourtCast — Spec
+# deegens — Spec
 
 A private NBA prediction game for a small group of friends (<15). Yearly seasons, live leaderboards, and an end-of-season "Wrapped".
 
