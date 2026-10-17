@@ -14,15 +14,20 @@ export const TEAMS = teamsJson as Team[];
 export const TEAM_BY_ID = Object.fromEntries(TEAMS.map((t) => [t.id, t])) as Record<string, Team>;
 export const teamsIn = (conf: Conference) => TEAMS.filter((t) => t.conference === conf);
 
-export type Person = { name: string; team: string };
+export type Person = { name: string; team: string; headshotId?: string | null };
 
 // One entry per name, sorted by name.
 function people(list: Person[]): Person[] {
   const seen = new Set<string>();
   return list
     .filter((p) => !seen.has(p.name) && seen.add(p.name))
-    .map((p) => ({ name: p.name, team: p.team }))
+    .map((p) => ({ name: p.name, team: p.team, headshotId: p.headshotId ?? null }))
     .sort((a, b) => a.name.localeCompare(b.name));
+}
+
+// ESPN's image resizer: ~8 KB thumbnails instead of ~200 KB full PNGs.
+export function headshotUrl(espnId: string) {
+  return `https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/${espnId}.png&w=96&h=70&scale=crop&cquality=60`;
 }
 
 const PLAYERS = people(playersJson.players);

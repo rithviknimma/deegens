@@ -3,3167 +3,3800 @@
     {
       "name": "Aaron Gordon",
       "team": "DEN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3064290"
     },
     {
       "name": "Aaron Nesmith",
       "team": "IND",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4396909"
     },
     {
       "name": "Aaron Wiggins",
       "team": "ATL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4397183"
     },
     {
       "name": "Ace Bailey",
       "team": "UTAH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4873138"
     },
     {
       "name": "Adam Flagler",
       "team": "SAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4397654"
     },
     {
       "name": "Aday Mara",
       "team": "OKC",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5174983"
     },
     {
       "name": "Adem Bona",
       "team": "PHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5105637"
     },
     {
       "name": "Adou Thiero",
       "team": "LAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5060631"
     },
     {
       "name": "AJ Dybantsa",
       "team": "WSH",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5142718"
     },
     {
       "name": "AJ Green",
       "team": "MIL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4397475"
     },
     {
       "name": "AJ Johnson",
       "team": "NO",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5170947"
     },
     {
       "name": "Ajay Mitchell",
       "team": "OKC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4900671"
     },
     {
       "name": "AK Okereke",
       "team": "LAL",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5114350"
     },
     {
       "name": "Al Horford",
       "team": "GS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3213"
     },
     {
       "name": "Alex Caruso",
       "team": "OKC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2991350"
     },
     {
       "name": "Alex Karaban",
       "team": "SAC",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4917149"
     },
     {
       "name": "Alex Morales",
       "team": "ORL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4593034"
     },
     {
       "name": "Alex Sarr",
       "team": "WSH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5160992"
     },
     {
       "name": "Alex Toohey",
       "team": "GS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5170949"
     },
     {
       "name": "Alijah Martin",
       "team": "TOR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4702656"
     },
     {
       "name": "Allen Graves",
       "team": "TOR",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5149115"
     },
     {
       "name": "Alondes Williams",
       "team": "WSH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4592216"
     },
     {
       "name": "Alperen Sengun",
       "team": "HOU",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4871144"
     },
     {
       "name": "Alpha Diallo",
       "team": "DEN",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4065813"
     },
     {
       "name": "Amari Williams",
       "team": "BOS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4702745"
     },
     {
       "name": "Amen Thompson",
       "team": "HOU",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4684740"
     },
     {
       "name": "Andre Drummond",
       "team": "NY",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "6585"
     },
     {
       "name": "Andre Jackson Jr.",
       "team": "TOR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432190"
     },
     {
       "name": "Andrew Nembhard",
       "team": "IND",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4395712"
     },
     {
       "name": "Andrew Wiggins",
       "team": "MIA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3059319"
     },
     {
       "name": "Anfernee Simons",
       "team": "PHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4351851"
     },
     {
       "name": "Aniwaniwa Tait-Jones",
       "team": "LAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": null
     },
     {
       "name": "Anthony Black",
       "team": "ORL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4712849"
     },
     {
       "name": "Anthony Davis",
       "team": "WSH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "6583"
     },
     {
       "name": "Anthony Edwards",
       "team": "MIN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4594268"
     },
     {
       "name": "Anthony Gill",
       "team": "WSH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2581184"
     },
     {
       "name": "Antonio Reeves",
       "team": "MIN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4592686"
     },
     {
       "name": "Ariel Hukporti",
       "team": "PHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4871141"
     },
     {
       "name": "Arthur Kaluma",
       "team": "LAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433599"
     },
     {
       "name": "Asa Newell",
       "team": "ATL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4873201"
     },
     {
       "name": "Ausar Thompson",
       "team": "DET",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4684742"
     },
     {
       "name": "Austin Reaves",
       "team": "LAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4066457"
     },
     {
       "name": "Ayo Dosunmu",
       "team": "MIN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4397002"
     },
     {
       "name": "Baba Miller",
       "team": "LAC",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5075626"
     },
     {
       "name": "Bam Adebayo",
       "team": "MIA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4066261"
     },
     {
       "name": "Baylor Scheierman",
       "team": "BOS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4593841"
     },
     {
       "name": "Ben Saraf",
       "team": "BKN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5242502"
     },
     {
       "name": "Ben Sheppard",
       "team": "IND",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433076"
     },
     {
       "name": "Ben Simmons",
       "team": "SAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3907387"
     },
     {
       "name": "Bennedict Mathurin",
       "team": "NO",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4683634"
     },
     {
       "name": "Bennett Stirtz",
       "team": "OKC",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5241364"
     },
     {
       "name": "Bez Mbeng",
       "team": "MIA",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4898237"
     },
     {
       "name": "Bilal Coulibaly",
       "team": "WSH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5104155"
     },
     {
       "name": "Blake Hinson",
       "team": "UTAH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4396963"
     },
     {
       "name": "Blake Wesley",
       "team": "LAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4683935"
     },
     {
       "name": "Bobby Portis",
       "team": "MIA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3064482"
     },
     {
       "name": "Bogdan Bogdanovic",
       "team": "HOU",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3037789"
     },
     {
       "name": "Bogoljub Markovic",
       "team": "MIL",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5214989"
     },
     {
       "name": "Bones Hyland",
       "team": "MIN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4592492"
     },
     {
       "name": "Braden Smith",
       "team": "IND",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5105854"
     },
     {
       "name": "Bradley Beal",
       "team": "LAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "6580"
     },
     {
       "name": "Branden Carlson",
       "team": "POR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4592435"
     },
     {
       "name": "Brandin Podziemski",
       "team": "GS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4709138"
     },
     {
       "name": "Brandon Boston Jr.",
       "team": "CHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432162"
     },
     {
       "name": "Brandon Ingram",
       "team": "LAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3913176"
     },
     {
       "name": "Brandon Miller",
       "team": "CHA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433287"
     },
     {
       "name": "Brandon Williams",
       "team": "GS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4397040"
     },
     {
       "name": "Brayden Burries",
       "team": "MIL",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5082206"
     },
     {
       "name": "Brice Sensabaugh",
       "team": "UTAH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5105839"
     },
     {
       "name": "Brice Williams",
       "team": "DET",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4592843"
     },
     {
       "name": "Bronny James",
       "team": "LAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4683774"
     },
     {
       "name": "Brook Lopez",
       "team": "LAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3448"
     },
     {
       "name": "Brooks Barnhizer",
       "team": "OKC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4684208"
     },
     {
       "name": "Bruce Brown",
       "team": "NY",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4065670"
     },
     {
       "name": "Bruce Thornton",
       "team": "HOU",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5105837"
     },
     {
       "name": "Bryce Hopkins",
       "team": "DEN",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4565698"
     },
     {
       "name": "Bryce McGowens",
       "team": "NO",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4576086"
     },
     {
       "name": "Bub Carrington",
       "team": "WSH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4845374"
     },
     {
       "name": "Buddy Hield",
       "team": "CHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2990984"
     },
     {
       "name": "Cade Cunningham",
       "team": "DET",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432166"
     },
     {
       "name": "Caleb Love",
       "team": "PHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433144"
     },
     {
       "name": "Caleb Martin",
       "team": "DAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3138160"
     },
     {
       "name": "Caleb Wilson",
       "team": "CHI",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5095151"
     },
     {
       "name": "Cam Christie",
       "team": "LAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4845363"
     },
     {
       "name": "Cam Spencer",
       "team": "MEM",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433083"
     },
     {
       "name": "Cam Whitmore",
       "team": "DEN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5105592"
     },
     {
       "name": "Cameron Boozer",
       "team": "MEM",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5041935"
     },
     {
       "name": "Cameron Carr",
       "team": "LAL",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5113969"
     },
     {
       "name": "Cameron Corhen",
       "team": "ATL",
-      "rookie": true
+      "rookie": true,
+      "headshotId": null
     },
     {
       "name": "Cameron Johnson",
       "team": "DEN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3138196"
     },
     {
       "name": "Cameron Matthews",
       "team": "HOU",
-      "rookie": true
+      "rookie": true,
+      "headshotId": null
     },
     {
       "name": "Caris LeVert",
       "team": "MIL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2991043"
     },
     {
       "name": "Carson Cooper",
       "team": "MEM",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5105817"
     },
     {
       "name": "Carter Bryant",
       "team": "SA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5061568"
     },
     {
       "name": "Cason Wallace",
       "team": "OKC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4683692"
     },
     {
       "name": "Cedric Coward",
       "team": "MEM",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4903027"
     },
     {
       "name": "Chaney Johnson",
       "team": "BKN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5174655"
     },
     {
       "name": "Charles Bassey",
       "team": "GS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4397886"
     },
     {
       "name": "Chaz Lanier",
       "team": "DET",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4700852"
     },
     {
       "name": "Chet Holmgren",
       "team": "OKC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433255"
     },
     {
       "name": "Chris Cenac Jr.",
       "team": "BOS",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5142621"
     },
     {
       "name": "Chris Livingston",
       "team": "WSH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433622"
     },
     {
       "name": "Chris Manon",
       "team": "LAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4702972"
     },
     {
       "name": "Chris Youngblood",
       "team": "POR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4706557"
     },
     {
       "name": "Christian Anderson",
       "team": "CHA",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5060701"
     },
     {
       "name": "Christian Braun",
       "team": "DEN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431767"
     },
     {
       "name": "Christian Koloko",
       "team": "NO",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431778"
     },
     {
       "name": "Christoph Tilly",
       "team": "OKC",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5109790"
     },
     {
       "name": "Chucky Hepburn",
       "team": "TOR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4590360"
     },
     {
       "name": "CJ Huntley",
       "team": "PHX",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4702602"
     },
     {
       "name": "CJ McCollum",
       "team": "ATL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2490149"
     },
     {
       "name": "Clint Capela",
       "team": "HOU",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3102529"
     },
     {
       "name": "Coby White",
       "team": "CHA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4395651"
     },
     {
       "name": "Cody Williams",
       "team": "MIN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4895758"
     },
     {
       "name": "Coleman Hawkins",
       "team": "DEN",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4432976"
     },
     {
       "name": "Colin Castleton",
       "team": "ORL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4397204"
     },
     {
       "name": "Collin Gillespie",
       "team": "PHX",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4278585"
     },
     {
       "name": "Collin Murray-Boyles",
       "team": "TOR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5093267"
     },
     {
       "name": "Collin Sexton",
       "team": "LAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4277811"
     },
     {
       "name": "Cooper Flagg",
       "team": "DAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5041939"
     },
     {
       "name": "Corey Kispert",
       "team": "ATL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4280151"
     },
     {
       "name": "Cormac Ryan",
       "team": "MIL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4397114"
     },
     {
       "name": "Craig Porter Jr.",
       "team": "CLE",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4701233"
     },
     {
       "name": "Cris Carroll",
       "team": "PHI",
-      "rookie": true
+      "rookie": true,
+      "headshotId": null
     },
     {
       "name": "Curtis Jones",
       "team": "CLE",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4898369"
     },
     {
       "name": "Daeqwon Plowden",
       "team": "SAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4279318"
     },
     {
       "name": "Dailyn Swain",
       "team": "CHI",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4848625"
     },
     {
       "name": "Dalen Terry",
       "team": "GS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433159"
     },
     {
       "name": "Dalton Knecht",
       "team": "LAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4897943"
     },
     {
       "name": "Damian Lillard",
       "team": "POR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "6606"
     },
     {
       "name": "Dane Goodwin",
       "team": "DEN",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4395667"
     },
     {
       "name": "Daniel Gafford",
       "team": "DAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4278049"
     },
     {
       "name": "Daniss Jenkins",
       "team": "DET",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5107199"
     },
     {
       "name": "Danny Wolf",
       "team": "BKN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5107173"
     },
     {
       "name": "Darius Acuff Jr.",
       "team": "SAC",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5142620"
     },
     {
       "name": "Darius Garland",
       "team": "LAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4396907"
     },
     {
       "name": "DaRon Holmes II",
       "team": "DEN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433607"
     },
     {
       "name": "Darryn Peterson",
       "team": "UTAH",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5041955"
     },
     {
       "name": "David Jones Garcia",
       "team": "SA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4713010"
     },
     {
       "name": "Davion Mitchell",
       "team": "MIA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4278053"
     },
     {
       "name": "Day'Ron Sharpe",
       "team": "BKN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432194"
     },
     {
       "name": "De'Aaron Fox",
       "team": "SA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4066259"
     },
     {
       "name": "De'Andre Hunter",
       "team": "SAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4065732"
     },
     {
       "name": "De'Anthony Melton",
       "team": "GS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4066436"
     },
     {
       "name": "Dean Wade",
       "team": "PHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3912848"
     },
     {
       "name": "Deandre Ayton",
       "team": "WSH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4278129"
     },
     {
       "name": "DeAndre Jordan",
       "team": "NO",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3442"
     },
     {
       "name": "DeAndre Williams",
       "team": "LAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": null
     },
     {
       "name": "Dejounte Murray",
       "team": "NO",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3907497"
     },
     {
       "name": "DeMar DeRozan",
       "team": "DEN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3978"
     },
     {
       "name": "Deni Avdija",
       "team": "POR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4683021"
     },
     {
       "name": "Dennis Schroder",
       "team": "CHA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3032979"
     },
     {
       "name": "Dennis Smith Jr.",
       "team": "MIA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4065697"
     },
     {
       "name": "Dereck Lively II",
       "team": "DAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4683688"
     },
     {
       "name": "Derik Queen",
       "team": "NO",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4869780"
     },
     {
       "name": "Derrick Jones Jr.",
       "team": "LAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3936099"
     },
     {
       "name": "Derrick White",
       "team": "BOS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3078576"
     },
     {
       "name": "Desmond Bane",
       "team": "ORL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4066320"
     },
     {
       "name": "Devin Booker",
       "team": "PHX",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3136193"
     },
     {
       "name": "Devin Carter",
       "team": "BOS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433188"
     },
     {
       "name": "Devin Vassell",
       "team": "SA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4395630"
     },
     {
       "name": "Dillon Brooks",
       "team": "PHX",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3155526"
     },
     {
       "name": "Dillon Jones",
       "team": "PHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4702159"
     },
     {
       "name": "Dillon Mitchell",
       "team": "BOS",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5106283"
     },
     {
       "name": "Domantas Sabonis",
       "team": "SAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3155942"
     },
     {
       "name": "Dominick Barlow",
       "team": "PHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4870562"
     },
     {
       "name": "Donovan Clingan",
       "team": "POR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5105565"
     },
     {
       "name": "Donovan Mitchell",
       "team": "CLE",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3908809"
     },
     {
       "name": "Donte DiVincenzo",
       "team": "MIN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3934673"
     },
     {
       "name": "Dorian Finney-Smith",
       "team": "ATL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2578185"
     },
     {
       "name": "Drake Powell",
       "team": "BKN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5037873"
     },
     {
       "name": "Draymond Green",
       "team": "GS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "6589"
     },
     {
       "name": "Drew Eubanks",
       "team": "NY",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3914285"
     },
     {
       "name": "Drew Peterson",
       "team": "CHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4397689"
     },
     {
       "name": "Drew Timme",
       "team": "MIN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431695"
     },
     {
       "name": "Dru Smith",
       "team": "MIA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4066993"
     },
     {
       "name": "Duke Miles",
       "team": "PHI",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4702049"
     },
     {
       "name": "Duncan Robinson",
       "team": "DET",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3157465"
     },
     {
       "name": "Duop Reath",
       "team": "PHX",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4066268"
     },
     {
       "name": "Dwight Powell",
       "team": "DAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2531367"
     },
     {
       "name": "Dylan Cardwell",
       "team": "SAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433174"
     },
     {
       "name": "Dylan Harper",
       "team": "SA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5037871"
     },
     {
       "name": "Dyson Daniels",
       "team": "ATL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4869342"
     },
     {
       "name": "Ebuka Okorie",
       "team": "DET",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5258459"
     },
     {
       "name": "Egor Demin",
       "team": "BKN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5175643"
     },
     {
       "name": "Elfrid Payton",
       "team": "SAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2583639"
     },
     {
       "name": "Elijah Harkless",
       "team": "DET",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4397449"
     },
     {
       "name": "Emanuel Miller",
       "team": "DEN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432872"
     },
     {
       "name": "Emanuel Sharp",
       "team": "SAC",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5106058"
     },
     {
       "name": "Enrique Freeman",
       "team": "MIN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4592699"
     },
     {
       "name": "Ernest Udeh Jr.",
       "team": "CLE",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5106261"
     },
     {
       "name": "Evan Mobley",
       "team": "CLE",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432158"
     },
     {
       "name": "Ezra Ausar",
       "team": "MIA",
-      "rookie": true
+      "rookie": true,
+      "headshotId": null
     },
     {
       "name": "Felix Okpara",
       "team": "WSH",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5105841"
     },
     {
       "name": "Fletcher Loyer",
       "team": "LAC",
-      "rookie": true
+      "rookie": true,
+      "headshotId": null
     },
     {
       "name": "Franz Wagner",
       "team": "ORL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4566434"
     },
     {
       "name": "Fred VanVleet",
       "team": "HOU",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2991230"
     },
     {
       "name": "Gabe Madsen",
       "team": "MIA",
-      "rookie": true
+      "rookie": true,
+      "headshotId": null
     },
     {
       "name": "Gabe McGlothan",
       "team": "BOS",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4398356"
     },
     {
       "name": "Gary Payton II",
       "team": "GS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3134903"
     },
     {
       "name": "Gary Trent Jr.",
       "team": "MIL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4277843"
     },
     {
       "name": "Georges Niang",
       "team": "GS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2990969"
     },
     {
       "name": "GG Jackson",
       "team": "MEM",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5105550"
     },
     {
       "name": "Giannis Antetokounmpo",
       "team": "MIA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3032977"
     },
     {
       "name": "Giorgi Bezhanishvili",
       "team": "ATL",
-      "rookie": true
+      "rookie": true,
+      "headshotId": null
     },
     {
       "name": "Goga Bitadze",
       "team": "ORL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4348700"
     },
     {
       "name": "Gradey Dick",
       "team": "LAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5106258"
     },
     {
       "name": "Graham Ike",
       "team": "GS",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4703396"
     },
     {
       "name": "Grant Nelson",
       "team": "BKN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4702670"
     },
     {
       "name": "Grant Williams",
       "team": "CHA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4066218"
     },
     {
       "name": "Grayson Allen",
       "team": "CHA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3135045"
     },
     {
       "name": "Gui Santos",
       "team": "GS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4997536"
     },
     {
       "name": "Hannes Steinbach",
       "team": "CHA",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5281370"
     },
     {
       "name": "Harrison Barnes",
       "team": "SA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "6578"
     },
     {
       "name": "Harrison Ingram",
       "team": "UTAH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433618"
     },
     {
       "name": "Hayden Gray",
       "team": "BOS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5176420"
     },
     {
       "name": "Haywood Highsmith",
       "team": "PHX",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4291678"
     },
     {
       "name": "Henri Veesaar",
       "team": "ATL",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5105571"
     },
     {
       "name": "Herbert Jones",
       "team": "NO",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4277813"
     },
     {
       "name": "Hugo Gonzalez",
       "team": "BOS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5175647"
     },
     {
       "name": "Ian Schieffelin",
       "team": "MIA",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4693954"
     },
     {
       "name": "Immanuel Quickley",
       "team": "TOR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4395724"
     },
     {
       "name": "Isaac Jones",
       "team": "DET",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5107818"
     },
     {
       "name": "Isaac McKneely",
       "team": "ATL",
-      "rookie": true
+      "rookie": true,
+      "headshotId": null
     },
     {
       "name": "Isaac Okoro",
       "team": "CHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432822"
     },
     {
       "name": "Isaiah Collier",
       "team": "UTAH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4683766"
     },
     {
       "name": "Isaiah Crawford",
       "team": "HOU",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4592857"
     },
     {
       "name": "Isaiah Evans",
       "team": "MIN",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5061585"
     },
     {
       "name": "Isaiah Hartenstein",
       "team": "OKC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4222252"
     },
     {
       "name": "Isaiah Jackson",
       "team": "LAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432170"
     },
     {
       "name": "Isaiah Joe",
       "team": "DET",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4395702"
     },
     {
       "name": "Isaiah Stevens",
       "team": "CHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432117"
     },
     {
       "name": "Isaiah Stewart",
       "team": "MEM",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432810"
     },
     {
       "name": "Ivica Zubac",
       "team": "IND",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4017837"
     },
     {
       "name": "Izaiyah Nelson",
       "team": "ORL",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5107251"
     },
     {
       "name": "J'Vonne Hadley",
       "team": "MIA",
-      "rookie": true
+      "rookie": true,
+      "headshotId": null
     },
     {
       "name": "Ja Morant",
       "team": "POR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4279888"
     },
     {
       "name": "Ja'Kobe Walter",
       "team": "TOR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4684272"
     },
     {
       "name": "Ja'Kobi Gillespie",
       "team": "SA",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5107968"
     },
     {
       "name": "Jabari Smith Jr.",
       "team": "HOU",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432639"
     },
     {
       "name": "Jabari Walker",
       "team": "PHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432446"
     },
     {
       "name": "Jaden Akins",
       "team": "NY",
-      "rookie": true
+      "rookie": true,
+      "headshotId": null
     },
     {
       "name": "Jaden Bradley",
       "team": "TOR",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4432737"
     },
     {
       "name": "Jaden Hardy",
       "team": "LAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4868423"
     },
     {
       "name": "Jaden McDaniels",
       "team": "MIN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431671"
     },
     {
       "name": "Jae'Sean Tate",
       "team": "HOU",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3136777"
     },
     {
       "name": "Jahmai Mashack",
       "team": "MEM",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4683934"
     },
     {
       "name": "Jahmyl Telfort",
       "team": "LAC",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4702785"
     },
     {
       "name": "Jaime Jaquez Jr.",
       "team": "MIL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432848"
     },
     {
       "name": "Jake LaRavia",
       "team": "LAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4592691"
     },
     {
       "name": "Jake Stephens",
       "team": "MIL",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4398257"
     },
     {
       "name": "Jakob Poeltl",
       "team": "TOR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3134908"
     },
     {
       "name": "Jalen Bridges",
       "team": "CHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432946"
     },
     {
       "name": "Jalen Brunson",
       "team": "NY",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3934672"
     },
     {
       "name": "Jalen Duren",
       "team": "DET",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433621"
     },
     {
       "name": "Jalen Green",
       "team": "PHX",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4437244"
     },
     {
       "name": "Jalen Johnson",
       "team": "ATL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4701230"
     },
     {
       "name": "Jalen Pickett",
       "team": "LAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4398390"
     },
     {
       "name": "Jalen Slawson",
       "team": "IND",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4398207"
     },
     {
       "name": "Jalen Smith",
       "team": "CHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4397189"
     },
     {
       "name": "Jalen Suggs",
       "team": "ORL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432165"
     },
     {
       "name": "Jalen Williams",
       "team": "OKC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4593803"
     },
     {
       "name": "Jalen Wilson",
       "team": "ATL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431714"
     },
     {
       "name": "Jalon Moore",
       "team": "NO",
-      "rookie": false
+      "rookie": false,
+      "headshotId": null
     },
     {
       "name": "Jamal Cain",
       "team": "ORL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4278572"
     },
     {
       "name": "Jamal Murray",
       "team": "DEN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3936299"
     },
     {
       "name": "Jamal Shead",
       "team": "TOR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432241"
     },
     {
       "name": "Jamaree Bouyea",
       "team": "PHX",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4280245"
     },
     {
       "name": "Jamarion Sharp",
       "team": "TOR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4897696"
     },
     {
       "name": "Jameer Nelson Jr.",
       "team": "PHI",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4592444"
     },
     {
       "name": "James Harden",
       "team": "CLE",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3992"
     },
     {
       "name": "James Johnson",
       "team": "IND",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3999"
     },
     {
       "name": "James Wiseman",
       "team": "NY",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432808"
     },
     {
       "name": "Jamir Watkins",
       "team": "WSH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4606840"
     },
     {
       "name": "Jamison Battle",
       "team": "TOR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431893"
     },
     {
       "name": "Jarace Walker",
       "team": "IND",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5106060"
     },
     {
       "name": "Jared McCain",
       "team": "OKC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4683778"
     },
     {
       "name": "Jaren Jackson Jr.",
       "team": "UTAH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4277961"
     },
     {
       "name": "Jarkel Joiner",
       "team": "CHA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4278729"
     },
     {
       "name": "Jaron Pierre Jr.",
       "team": "NO",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4703115"
     },
     {
       "name": "Jarred Vanderbilt",
       "team": "LAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4278077"
     },
     {
       "name": "Jarrett Allen",
       "team": "CLE",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4066328"
     },
     {
       "name": "Jase Richardson",
       "team": "ORL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5239561"
     },
     {
       "name": "Javon Small",
       "team": "MEM",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4781746"
     },
     {
       "name": "Javonte Green",
       "team": "DET",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2596112"
     },
     {
       "name": "Jaxson Hayes",
       "team": "UTAH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4397077"
     },
     {
       "name": "Jay Huff",
       "team": "IND",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4065731"
     },
     {
       "name": "Jayden Quaintance",
       "team": "SA",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5101845"
     },
     {
       "name": "Jaylen Brown",
       "team": "PHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3917376"
     },
     {
       "name": "Jaylen Clark",
       "team": "MIN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432247"
     },
     {
       "name": "Jaylen Martin",
       "team": "POR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": null
     },
     {
       "name": "Jaylen Wells",
       "team": "MEM",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5112087"
     },
     {
       "name": "Jaylin Sellers",
       "team": "CHI",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4898010"
     },
     {
       "name": "Jaylin Williams",
       "team": "OKC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432823"
     },
     {
       "name": "Jaylon Tyson",
       "team": "CLE",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4683747"
     },
     {
       "name": "Jayson Kent",
       "team": "POR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4703889"
     },
     {
       "name": "Jayson Tatum",
       "team": "BOS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4065648"
     },
     {
       "name": "Jazian Gortman",
       "team": "WSH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4708972"
     },
     {
       "name": "Jerami Grant",
       "team": "MEM",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2991070"
     },
     {
       "name": "Jeremiah Fears",
       "team": "NO",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5144091"
     },
     {
       "name": "Jeremy Sochan",
       "team": "POR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4610139"
     },
     {
       "name": "Jericho Sims",
       "team": "MIL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4277922"
     },
     {
       "name": "Jett Howard",
       "team": "DAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5105806"
     },
     {
       "name": "Jevon Carter",
       "team": "ORL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3133635"
     },
     {
       "name": "Jimmy Butler III",
       "team": "GS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "6430"
     },
     {
       "name": "Joan Beringer",
       "team": "MIN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5279133"
     },
     {
       "name": "Jock Landale",
       "team": "ATL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3146557"
     },
     {
       "name": "Joel Embiid",
       "team": "PHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3059318"
     },
     {
       "name": "John Butler Jr.",
       "team": "MIL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432588"
     },
     {
       "name": "John Collins",
       "team": "DET",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3908845"
     },
     {
       "name": "John Poulakidas",
       "team": "DAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4898238"
     },
     {
       "name": "John Tonje",
       "team": "POR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4593043"
     },
     {
       "name": "Johni Broome",
       "team": "MIL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433569"
     },
     {
       "name": "Johnny Furphy",
       "team": "IND",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5157066"
     },
     {
       "name": "Jon Elmore",
       "team": "SA",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "3155937"
     },
     {
       "name": "Jonas Aidoo",
       "team": "UTAH",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4684682"
     },
     {
       "name": "Jonathan Isaac",
       "team": "ORL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4065654"
     },
     {
       "name": "Jonathan Kuminga",
       "team": "MIN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433247"
     },
     {
       "name": "Jonathan Mogbo",
       "team": "SAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5107897"
     },
     {
       "name": "Jordan Clarkson",
       "team": "NY",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2528426"
     },
     {
       "name": "Jordan Goodwin",
       "team": "PHX",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4278402"
     },
     {
       "name": "Jordan Hawkins",
       "team": "CHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4683750"
     },
     {
       "name": "Jordan McLaughlin",
       "team": "SA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3134916"
     },
     {
       "name": "Jordan Miller",
       "team": "LAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4396818"
     },
     {
       "name": "Jordan Poole",
       "team": "NO",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4277956"
     },
     {
       "name": "Jordan Walsh",
       "team": "BOS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4683689"
     },
     {
       "name": "Jose Alvarado",
       "team": "NY",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4277869"
     },
     {
       "name": "Josh Dix",
       "team": "OKC",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5105800"
     },
     {
       "name": "Josh Giddey",
       "team": "CHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4871145"
     },
     {
       "name": "Josh Green",
       "team": "UTAH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432811"
     },
     {
       "name": "Josh Hart",
       "team": "NY",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3062679"
     },
     {
       "name": "Josh Minott",
       "team": "BKN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4687718"
     },
     {
       "name": "Josh Okogie",
       "team": "UTAH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4065663"
     },
     {
       "name": "Joshua Jefferson",
       "team": "BKN",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4870564"
     },
     {
       "name": "Jrue Holiday",
       "team": "POR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3995"
     },
     {
       "name": "Julian Champagnie",
       "team": "SA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4592479"
     },
     {
       "name": "Julian Phillips",
       "team": "HOU",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5105553"
     },
     {
       "name": "Julian Reese",
       "team": "NO",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4683742"
     },
     {
       "name": "Julian Strawther",
       "team": "DEN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432181"
     },
     {
       "name": "Julius Randle",
       "team": "BKN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3064514"
     },
     {
       "name": "Justin Champagnie",
       "team": "WSH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432907"
     },
     {
       "name": "Justin Edwards",
       "team": "PHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4711297"
     },
     {
       "name": "Jusuf Nurkic",
       "team": "UTAH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3102530"
     },
     {
       "name": "Kadary Richmond",
       "team": "CLE",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4701845"
     },
     {
       "name": "Kam Jones",
       "team": "MIL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4697268"
     },
     {
       "name": "Karim Lopez",
       "team": "MEM",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5231919"
     },
     {
       "name": "Karl-Anthony Towns",
       "team": "NY",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3136195"
     },
     {
       "name": "Karlo Matkovic",
       "team": "NO",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4997538"
     },
     {
       "name": "Kasparas Jakucionis",
       "team": "MIL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5214640"
     },
     {
       "name": "Kawhi Leonard",
       "team": "TOR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "6450"
     },
     {
       "name": "Keaton Wagler",
       "team": "LAC",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5254165"
     },
     {
       "name": "Keegan Murray",
       "team": "SAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4594327"
     },
     {
       "name": "Kel'el Ware",
       "team": "MIL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5105623"
     },
     {
       "name": "Keldon Johnson",
       "team": "SA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4395723"
     },
     {
       "name": "Kelly Oubre Jr.",
       "team": "IND",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3133603"
     },
     {
       "name": "Kennedy Chandler",
       "team": "PHX",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432646"
     },
     {
       "name": "Kenrich Williams",
       "team": "OKC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3133626"
     },
     {
       "name": "Kentavious Caldwell-Pope",
       "team": "PHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2581018"
     },
     {
       "name": "Keon Ellis",
       "team": "BKN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4702177"
     },
     {
       "name": "Keshad Johnson",
       "team": "MIA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431786"
     },
     {
       "name": "Keshon Gilbert",
       "team": "ATL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4585618"
     },
     {
       "name": "Kevin Durant",
       "team": "HOU",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3202"
     },
     {
       "name": "Kevin Huerter",
       "team": "DET",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4066372"
     },
     {
       "name": "Kevin McCullar Jr.",
       "team": "NY",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4411057"
     },
     {
       "name": "Kevin Porter Jr.",
       "team": "MIL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4397140"
     },
     {
       "name": "Kevon Looney",
       "team": "LAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3155535"
     },
     {
       "name": "Keyonte George",
       "team": "UTAH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433627"
     },
     {
       "name": "Khalifa Diop",
       "team": "CLE",
-      "rookie": true
+      "rookie": true,
+      "headshotId": null
     },
     {
       "name": "Khaman Maluach",
       "team": "PHX",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5203685"
     },
     {
       "name": "Khris Middleton",
       "team": "WSH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "6609"
     },
     {
       "name": "Kingston Flemings",
       "team": "ATL",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5149077"
     },
     {
       "name": "KJ Martin",
       "team": "MIN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431828"
     },
     {
       "name": "Klay Thompson",
       "team": "MIA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "6475"
     },
     {
       "name": "Koa Peat",
       "team": "PHX",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5041953"
     },
     {
       "name": "Kobe Brown",
       "team": "IND",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431752"
     },
     {
       "name": "Kobe Bufkin",
       "team": "NO",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4683736"
     },
     {
       "name": "Kobe Johnson",
       "team": "ATL",
-      "rookie": true
+      "rookie": true,
+      "headshotId": null
     },
     {
       "name": "Kobe Sanders",
       "team": "LAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4702352"
     },
     {
       "name": "Koby Brea",
       "team": "PHX",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4591259"
     },
     {
       "name": "Kon Knueppel",
       "team": "CHA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5061575"
     },
     {
       "name": "Kris Dunn",
       "team": "LAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2991139"
     },
     {
       "name": "Kris Murray",
       "team": "MEM",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4594326"
     },
     {
       "name": "Kristaps Porzingis",
       "team": "GS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3102531"
     },
     {
       "name": "Kylan Boswell",
       "team": "CHA",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4684269"
     },
     {
       "name": "Kyle Anderson",
       "team": "TOR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2993874"
     },
     {
       "name": "Kyle Filipowski",
       "team": "UTAH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4684793"
     },
     {
       "name": "Kyle Kuzma",
       "team": "MIL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3134907"
     },
     {
       "name": "Kylor Kelley",
       "team": "MIA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3950760"
     },
     {
       "name": "Kyrie Irving",
       "team": "DAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "6442"
     },
     {
       "name": "Kyshawn George",
       "team": "WSH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5174563"
     },
     {
       "name": "Labaron Philon Jr.",
       "team": "PHI",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4873090"
     },
     {
       "name": "LaMelo Ball",
       "team": "MIN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432816"
     },
     {
       "name": "Landry Shamet",
       "team": "NY",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3914044"
     },
     {
       "name": "Larry Nance Jr.",
       "team": "IND",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2580365"
     },
     {
       "name": "Latrell Wrightsell Jr.",
       "team": "CHA",
-      "rookie": true
+      "rookie": true,
+      "headshotId": null
     },
     {
       "name": "Lauri Markkanen",
       "team": "UTAH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4066336"
     },
     {
       "name": "Leaky Black",
       "team": "SAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4395650"
     },
     {
       "name": "LeBron James",
       "team": "PHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "1966"
     },
     {
       "name": "Leonard Miller",
       "team": "CHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5044385"
     },
     {
       "name": "Lester Quinones",
       "team": "MIA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431720"
     },
     {
       "name": "Liam McNeeley",
       "team": "CHA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5239590"
     },
     {
       "name": "LJ Cryer",
       "team": "GS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433149"
     },
     {
       "name": "Lonnie Walker IV",
       "team": "DEN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4277890"
     },
     {
       "name": "Luguentz Dort",
       "team": "ATL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4397020"
     },
     {
       "name": "Luka Doncic",
       "team": "LAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3945274"
     },
     {
       "name": "Luka Garza",
       "team": "BOS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4277951"
     },
     {
       "name": "Luke Kennard",
       "team": "PHX",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3913174"
     },
     {
       "name": "Luke Kornet",
       "team": "SA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3064560"
     },
     {
       "name": "Malachi Smith",
       "team": "TOR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4397784"
     },
     {
       "name": "Malevy Leons",
       "team": "GS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4897449"
     },
     {
       "name": "Malik Dia",
       "team": "NO",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4712862"
     },
     {
       "name": "Malik Monk",
       "team": "SAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4066262"
     },
     {
       "name": "Malik Williams",
       "team": "SA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4277880"
     },
     {
       "name": "Maliq Brown",
       "team": "SA",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5105337"
     },
     {
       "name": "Marcus Sasser",
       "team": "DAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432107"
     },
     {
       "name": "Marcus Smart",
       "team": "HOU",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2990992"
     },
     {
       "name": "Mario Hezonja",
       "team": "CLE",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2995706"
     },
     {
       "name": "Mark Williams",
       "team": "PHX",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4701232"
     },
     {
       "name": "Marvin Bagley III",
       "team": "DEN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4277848"
     },
     {
       "name": "Matas Buzelis",
       "team": "CHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4711294"
     },
     {
       "name": "Matisse Thybulle",
       "team": "LAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3907498"
     },
     {
       "name": "Max Christie",
       "team": "DAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432582"
     },
     {
       "name": "Max Strus",
       "team": "LAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4065778"
     },
     {
       "name": "Maxime Raynaud",
       "team": "SAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4898371"
     },
     {
       "name": "Meleek Thomas",
       "team": "CLE",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5041951"
     },
     {
       "name": "Micah Peavy",
       "team": "MEM",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432185"
     },
     {
       "name": "Micah Potter",
       "team": "POR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4066399"
     },
     {
       "name": "Michael Porter Jr.",
       "team": "BKN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4278104"
     },
     {
       "name": "Mikal Bridges",
       "team": "NY",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3147657"
     },
     {
       "name": "Mike Conley",
       "team": "BOS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3195"
     },
     {
       "name": "Mike Sharavjamts",
       "team": "ORL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": null
     },
     {
       "name": "Mikel Brown Jr.",
       "team": "BKN",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5101761"
     },
     {
       "name": "Miles Bridges",
       "team": "PHX",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4066383"
     },
     {
       "name": "Miles Kelly",
       "team": "GS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4696317"
     },
     {
       "name": "Miles McBride",
       "team": "NY",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431823"
     },
     {
       "name": "Milos Uzan",
       "team": "BOS",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5106272"
     },
     {
       "name": "Mitchell Robinson",
       "team": "BOS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4351852"
     },
     {
       "name": "Mo Bamba",
       "team": "UTAH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4277919"
     },
     {
       "name": "Mohamed Diawara",
       "team": "NY",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5289900"
     },
     {
       "name": "Morez Johnson Jr.",
       "team": "DAL",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4873153"
     },
     {
       "name": "Moritz Wagner",
       "team": "BKN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3150844"
     },
     {
       "name": "Moses Moody",
       "team": "GS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432171"
     },
     {
       "name": "Mouhamed Gueye",
       "team": "ATL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4712863"
     },
     {
       "name": "Moussa Cisse",
       "team": "DAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4701208"
     },
     {
       "name": "Moussa Diabate",
       "team": "CHA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433249"
     },
     {
       "name": "Myles Turner",
       "team": "MIL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3133628"
     },
     {
       "name": "Myron Gardner",
       "team": "MIA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431772"
     },
     {
       "name": "Nae'Qwan Tomlin",
       "team": "CLE",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5106268"
     },
     {
       "name": "Naji Marshall",
       "team": "DAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4278594"
     },
     {
       "name": "Nate Ament",
       "team": "MIL",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5164559"
     },
     {
       "name": "Nate Bittle",
       "team": "TOR",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4432586"
     },
     {
       "name": "Naz Reid",
       "team": "CHA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4396971"
     },
     {
       "name": "Neemias Queta",
       "team": "BOS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4397424"
     },
     {
       "name": "Nic Claxton",
       "team": "CHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4278067"
     },
     {
       "name": "Nick Martinelli",
       "team": "LAC",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5105832"
     },
     {
       "name": "Nick Richards",
       "team": "MIA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4278076"
     },
     {
       "name": "Nickeil Alexander-Walker",
       "team": "ATL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4278039"
     },
     {
       "name": "Nikola Jokic",
       "team": "DEN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3112335"
     },
     {
       "name": "Nikola Jovic",
       "team": "MIA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4997528"
     },
     {
       "name": "Nikola Topic",
       "team": "OKC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5159925"
     },
     {
       "name": "Nikola Vucevic",
       "team": "ORL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "6478"
     },
     {
       "name": "Nimari Burnett",
       "team": "TOR",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4433138"
     },
     {
       "name": "Nique Clifford",
       "team": "SAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4702384"
     },
     {
       "name": "Noa Essengue",
       "team": "CHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5242496"
     },
     {
       "name": "Noah Clowney",
       "team": "BKN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4712896"
     },
     {
       "name": "Noah Penda",
       "team": "ORL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5214637"
     },
     {
       "name": "Noam Yaacov",
       "team": "CLE",
-      "rookie": true
+      "rookie": true,
+      "headshotId": null
     },
     {
       "name": "Nolan Traore",
       "team": "BKN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5279130"
     },
     {
       "name": "Norchad Omier",
       "team": "MIN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": null
     },
     {
       "name": "Norman Powell",
       "team": "CHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2595516"
     },
     {
       "name": "Obi Toppin",
       "team": "IND",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4278355"
     },
     {
       "name": "Ochai Agbaji",
       "team": "NY",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4397018"
     },
     {
       "name": "OG Anunoby",
       "team": "NY",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3934719"
     },
     {
       "name": "Olivier-Maxence Prosper",
       "team": "MEM",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4595400"
     },
     {
       "name": "Onyeka Okongwu",
       "team": "ATL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431680"
     },
     {
       "name": "Orlando Robinson",
       "team": "CHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4593049"
     },
     {
       "name": "Oscar Tshiebwe",
       "team": "HOU",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432827"
     },
     {
       "name": "Oso Ighodaro",
       "team": "PHX",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4601023"
     },
     {
       "name": "Otega Oweh",
       "team": "OKC",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5106270"
     },
     {
       "name": "Ousmane Dieng",
       "team": "MIL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4997526"
     },
     {
       "name": "P.J. Washington",
       "team": "DAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4278078"
     },
     {
       "name": "Pacome Dadiet",
       "team": "NY",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5211983"
     },
     {
       "name": "Paolo Banchero",
       "team": "ORL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432573"
     },
     {
       "name": "Pascal Siakam",
       "team": "IND",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3149673"
     },
     {
       "name": "Pat Spencer",
       "team": "PHX",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4592714"
     },
     {
       "name": "Patrick Williams",
       "team": "CHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431687"
     },
     {
       "name": "Paul George",
       "team": "BOS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4251"
     },
     {
       "name": "Paul Reed",
       "team": "DET",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4278562"
     },
     {
       "name": "Payton Pritchard",
       "team": "BOS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4066354"
     },
     {
       "name": "Pelle Larsson",
       "team": "MIA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4601025"
     },
     {
       "name": "Pete Nance",
       "team": "MIL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4397233"
     },
     {
       "name": "Peyton Watson",
       "team": "CLE",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4576087"
     },
     {
       "name": "Phillip Wheeler",
       "team": "PHX",
-      "rookie": false
+      "rookie": false,
+      "headshotId": null
     },
     {
       "name": "PJ Hall",
       "team": "CHA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4701225"
     },
     {
       "name": "Precious Achiuwa",
       "team": "SAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431679"
     },
     {
       "name": "Quadir Copeland",
       "team": "HOU",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4683860"
     },
     {
       "name": "Quentin Grimes",
       "team": "LAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4397014"
     },
     {
       "name": "Quenton Jackson",
       "team": "IND",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4592829"
     },
     {
       "name": "Quincy Acy",
       "team": "DAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "6576"
     },
     {
       "name": "Quinten Post",
       "team": "MEM",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4593016"
     },
     {
       "name": "Rafael Castro",
       "team": "LAL",
-      "rookie": true
+      "rookie": true,
+      "headshotId": null
     },
     {
       "name": "Rashaun Agee",
       "team": "CLE",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4593815"
     },
     {
       "name": "Rasheer Fleming",
       "team": "PHX",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5105977"
     },
     {
       "name": "Rayan Rupert",
       "team": "PHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5099752"
     },
     {
       "name": "RayJ Dennis",
       "team": "ATL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431941"
     },
     {
       "name": "Reece Beekman",
       "team": "WSH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432187"
     },
     {
       "name": "Reed Sheppard",
       "team": "HOU",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4711272"
     },
     {
       "name": "Riley Minix",
       "team": "CLE",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5177362"
     },
     {
       "name": "RJ Barrett",
       "team": "TOR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4395625"
     },
     {
       "name": "RJ Davis",
       "team": "SA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433176"
     },
     {
       "name": "Robert McCray V",
       "team": "OKC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": null
     },
     {
       "name": "Robert Williams III",
       "team": "POR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4066211"
     },
     {
       "name": "Rocco Zikarsky",
       "team": "MIN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5157587"
     },
     {
       "name": "Ron Harper Jr.",
       "team": "BOS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4397251"
     },
     {
       "name": "Ronald Holland II",
       "team": "DET",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4683771"
     },
     {
       "name": "Royce O'Neale",
       "team": "CHA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2583632"
     },
     {
       "name": "Rudy Gobert",
       "team": "MIN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3032976"
     },
     {
       "name": "Rui Hachimura",
       "team": "LAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4066648"
     },
     {
       "name": "Ryan Conwell",
       "team": "MIA",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5107157"
     },
     {
       "name": "Ryan Dunn",
       "team": "PHX",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4888725"
     },
     {
       "name": "Ryan Kalkbrenner",
       "team": "CHA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4576060"
     },
     {
       "name": "Ryan Nembhard",
       "team": "DEN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433629"
     },
     {
       "name": "Ryan Rollins",
       "team": "MIL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4591725"
     },
     {
       "name": "Saddiq Bey",
       "team": "NO",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4397136"
     },
     {
       "name": "Saint Thomas",
       "team": "PHI",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4897471"
     },
     {
       "name": "Sam Hauser",
       "team": "BOS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4065804"
     },
     {
       "name": "Sam Merrill",
       "team": "CLE",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4066757"
     },
     {
       "name": "Sandro Mamukelashvili",
       "team": "LAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4278580"
     },
     {
       "name": "Santi Aldama",
       "team": "DAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4593125"
     },
     {
       "name": "Scoot Henderson",
       "team": "POR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4683678"
     },
     {
       "name": "Scottie Barnes",
       "team": "TOR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433134"
     },
     {
       "name": "Scotty Pippen Jr.",
       "team": "MEM",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431785"
     },
     {
       "name": "Sean Pedulla",
       "team": "HOU",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4709131"
     },
     {
       "name": "Sergio de Larrea",
       "team": "DAL",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5279129"
     },
     {
       "name": "Seth Lundy",
       "team": "DAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431775"
     },
     {
       "name": "Shaedon Sharpe",
       "team": "POR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4914336"
     },
     {
       "name": "Shai Gilgeous-Alexander",
       "team": "OKC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4278073"
     },
     {
       "name": "Sidy Cissoko",
       "team": "POR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5081727"
     },
     {
       "name": "Simone Fontecchio",
       "team": "MIA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3899664"
     },
     {
       "name": "Sion James",
       "team": "CHA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4602025"
     },
     {
       "name": "Skal Labissiere",
       "team": "WSH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3936296"
     },
     {
       "name": "Spencer Jones",
       "team": "DEN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4592427"
     },
     {
       "name": "Stephen Curry",
       "team": "GS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3975"
     },
     {
       "name": "Stephon Castle",
       "team": "SA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4845367"
     },
     {
       "name": "Steve Settle III",
       "team": "WSH",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4704043"
     },
     {
       "name": "Steven Adams",
       "team": "HOU",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2991235"
     },
     {
       "name": "Steven Crowl",
       "team": "DEN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": null
     },
     {
       "name": "Svi Mykhailiuk",
       "team": "UTAH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3133602"
     },
     {
       "name": "T.J. McConnell",
       "team": "IND",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2530530"
     },
     {
       "name": "Tacko Fall",
       "team": "PHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3904625"
     },
     {
       "name": "Taelon Peter",
       "team": "SA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4703421"
     },
     {
       "name": "Tamar Bates",
       "team": "UTAH",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4683933"
     },
     {
       "name": "Tari Eason",
       "team": "HOU",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433192"
     },
     {
       "name": "Tarik Biberovic",
       "team": "DAL",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5148538"
     },
     {
       "name": "Tarris Reed Jr.",
       "team": "SA",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5105809"
     },
     {
       "name": "Taurean Prince",
       "team": "DET",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2990962"
     },
     {
       "name": "Taye Fields",
       "team": "PHI",
-      "rookie": true
+      "rookie": true,
+      "headshotId": null
     },
     {
       "name": "Taylor Funk",
       "team": "UTAH",
-      "rookie": true
+      "rookie": true,
+      "headshotId": null
     },
     {
       "name": "Taylor Hendricks",
       "team": "MEM",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4684806"
     },
     {
       "name": "Terance Mann",
       "team": "BKN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3907823"
     },
     {
       "name": "Terrell Brown Jr.",
       "team": "UTAH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": null
     },
     {
       "name": "Terrence Shannon Jr.",
       "team": "MIN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432847"
     },
     {
       "name": "Terry Taylor",
       "team": "SA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4279815"
     },
     {
       "name": "Thomas Bryant",
       "team": "CLE",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3934723"
     },
     {
       "name": "Thomas Sorber",
       "team": "OKC",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5061603"
     },
     {
       "name": "Tidjane Salaun",
       "team": "CHA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5211176"
     },
     {
       "name": "Tim Hardaway Jr.",
       "team": "MIA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "2528210"
     },
     {
       "name": "Tobe Awaka",
       "team": "CHI",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5105555"
     },
     {
       "name": "Tobi Lawal",
       "team": "DAL",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5106040"
     },
     {
       "name": "Tobias Harris",
       "team": "SA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "6440"
     },
     {
       "name": "Tolu Smith",
       "team": "DET",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4397882"
     },
     {
       "name": "Tony Bradley",
       "team": "NY",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4065673"
     },
     {
       "name": "Toumani Camara",
       "team": "POR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431736"
     },
     {
       "name": "Trae Young",
       "team": "WSH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4277905"
     },
     {
       "name": "Trayce Jackson-Davis",
       "team": "TOR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431684"
     },
     {
       "name": "Tre Donaldson",
       "team": "MIA",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4837356"
     },
     {
       "name": "Tre Johnson",
       "team": "WSH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5238230"
     },
     {
       "name": "Tre Jones",
       "team": "CHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4395626"
     },
     {
       "name": "Tre Mann",
       "team": "WSH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432819"
     },
     {
       "name": "Trendon Watford",
       "team": "NO",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431675"
     },
     {
       "name": "Trevon Brazile",
       "team": "DEN",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4698719"
     },
     {
       "name": "Trevor Keels",
       "team": "WSH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4432645"
     },
     {
       "name": "Trey Alexander",
       "team": "UTAH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433268"
     },
     {
       "name": "Trey Jemison III",
       "team": "TOR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4395623"
     },
     {
       "name": "Trey Lyles",
       "team": "MIN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3136196"
     },
     {
       "name": "Trey Murphy III",
       "team": "NO",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4397688"
     },
     {
       "name": "Tristan da Silva",
       "team": "ORL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4702382"
     },
     {
       "name": "Tristan Enaruna",
       "team": "CLE",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431734"
     },
     {
       "name": "Tristan Vukcevic",
       "team": "WSH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4997537"
     },
     {
       "name": "Tristen Newton",
       "team": "SAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4592965"
     },
     {
       "name": "Tucker DeVries",
       "team": "BOS",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4837238"
     },
     {
       "name": "Ty Jerome",
       "team": "MEM",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4065733"
     },
     {
       "name": "Tyler Bilodeau",
       "team": "BKN",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5105626"
     },
     {
       "name": "Tyler Burton",
       "team": "GS",
-      "rookie": true
+      "rookie": true,
+      "headshotId": null
     },
     {
       "name": "Tyler Herro",
       "team": "MIL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4395725"
     },
     {
       "name": "Tyler Kolek",
       "team": "NY",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433225"
     },
     {
       "name": "Tyler Nickel",
       "team": "NY",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4838721"
     },
     {
       "name": "Tyreke Key",
       "team": "TOR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4279143"
     },
     {
       "name": "Tyrese Haliburton",
       "team": "IND",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4396993"
     },
     {
       "name": "Tyrese Maxey",
       "team": "PHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431678"
     },
     {
       "name": "Tyrese Proctor",
       "team": "CLE",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5023693"
     },
     {
       "name": "Tyson Chandler",
       "team": "HOU",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "984"
     },
     {
       "name": "Tyson Degenhart",
       "team": "TOR",
-      "rookie": true
+      "rookie": true,
+      "headshotId": null
     },
     {
       "name": "Tyus Jones",
       "team": "DEN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3135046"
     },
     {
       "name": "Ugonna Onyenso",
       "team": "DET",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5037878"
     },
     {
       "name": "Victor Wembanyama",
       "team": "SA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5104157"
     },
     {
       "name": "Viktor Lakhin",
       "team": "SAC",
-      "rookie": true
+      "rookie": true,
+      "headshotId": null
     },
     {
       "name": "Vit Krejci",
       "team": "POR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4578893"
     },
     {
       "name": "VJ Edgecombe",
       "team": "PHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5124612"
     },
     {
       "name": "Vladislav Goldin",
       "team": "MIA",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4700818"
     },
     {
       "name": "Walker Kessler",
       "team": "LAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433136"
     },
     {
       "name": "Walter Clayton Jr.",
       "team": "MEM",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4896372"
     },
     {
       "name": "Wendell Carter Jr.",
       "team": "ORL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4277847"
     },
     {
       "name": "Will Richard",
       "team": "GS",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4897262"
     },
     {
       "name": "Will Riley",
       "team": "WSH",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5144126"
     },
     {
       "name": "William Kyle III",
       "team": "LAL",
-      "rookie": true
+      "rookie": true,
+      "headshotId": null
     },
     {
       "name": "Wyatt Fricks",
       "team": "CHA",
-      "rookie": true
+      "rookie": true,
+      "headshotId": null
     },
     {
       "name": "Yang Hansen",
       "team": "POR",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5217746"
     },
     {
       "name": "Yanic Konan Niederhauser",
       "team": "LAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5108024"
     },
     {
       "name": "Yaxel Lendeborg",
       "team": "GS",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5175737"
     },
     {
       "name": "Yuki Kawamura",
       "team": "LAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5159895"
     },
     {
       "name": "Yves Missi",
       "team": "NO",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5061589"
     },
     {
       "name": "Zaccharie Risacher",
       "team": "DAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "5211175"
     },
     {
       "name": "Zach Cleveland",
       "team": "MEM",
-      "rookie": true
+      "rookie": true,
+      "headshotId": null
     },
     {
       "name": "Zach Collins",
       "team": "CHI",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4066650"
     },
     {
       "name": "Zach Edey",
       "team": "MEM",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4600663"
     },
     {
       "name": "Zach LaVine",
       "team": "SAC",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "3064440"
     },
     {
       "name": "Zack Austin",
       "team": "CLE",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "4702099"
     },
     {
       "name": "Zeke Nnaji",
       "team": "DEN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4431690"
     },
     {
       "name": "Ziaire Williams",
       "team": "LAL",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4433137"
     },
     {
       "name": "Zion Williamson",
       "team": "NO",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4395628"
     },
     {
       "name": "Zuby Ejiofor",
       "team": "ATL",
-      "rookie": true
+      "rookie": true,
+      "headshotId": "5106262"
     },
     {
       "name": "Zyon Pullin",
       "team": "MIN",
-      "rookie": false
+      "rookie": false,
+      "headshotId": "4592979"
     }
   ],
   "coaches": [

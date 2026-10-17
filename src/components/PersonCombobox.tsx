@@ -1,5 +1,6 @@
 import { useEffect, useId, useMemo, useRef, useState, type KeyboardEvent } from 'react';
-import type { Person } from '../lib/nba';
+import { headshotUrl, type Person } from '../lib/nba';
+import { TeamLogo } from './TeamLogo';
 
 type Props = {
   options: readonly Person[];
@@ -125,12 +126,30 @@ export function PersonCombobox({ options, value, disabled, onChange }: Props) {
               onClick={() => choose(p)}
               onMouseEnter={() => setActive(i)}
             >
-              <span>{p.name}</span>
+              <Avatar person={p} />
+              <span className="combo-name">{p.name}</span>
               <span className="muted">{p.team}</span>
             </li>
           ))}
         </ul>
       )}
     </div>
+  );
+}
+
+// Headshot when ESPN has one, otherwise (or if it fails to load) the team logo.
+function Avatar({ person }: { person: Person }) {
+  const [failed, setFailed] = useState(false);
+  if (!person.headshotId || failed) {
+    return (
+      <span className="avatar">
+        <TeamLogo teamId={person.team} size={22} />
+      </span>
+    );
+  }
+  return (
+    <span className="avatar">
+      <img src={headshotUrl(person.headshotId)} alt="" loading="lazy" onError={() => setFailed(true)} />
+    </span>
   );
 }

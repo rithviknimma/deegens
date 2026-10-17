@@ -39,6 +39,8 @@ for (const team of teams) {
       name: a.displayName,
       team: team.id,
       rookie: (a.experience?.years ?? 1) === 0,
+      // ESPN athlete id, used to build a small headshot URL; null when ESPN has no photo.
+      headshotId: a.headshot?.href ? a.id : null,
     });
   }
   for (const c of roster.coach ?? []) {
