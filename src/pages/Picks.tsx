@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { PersonCombobox } from '../components/PersonCombobox';
+import { SavedModal } from '../components/SavedModal';
 import { SeedList } from '../components/SeedList';
 import { TeamLogo } from '../components/TeamLogo';
 import { useAuth } from '../lib/auth';
@@ -9,6 +10,9 @@ import { errorMessage, fetchCurrentSeason, supabase, type Season } from '../lib/
 import { formatCountdown, useNow } from '../lib/useNow';
 
 type Bonus = Record<string, string>;
+
+const lockLabel = (iso: string) =>
+  new Date(iso).toLocaleString([], { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
 
 const alphabetical = (conf: Conference) => teamsIn(conf).map((t) => t.id);
 
@@ -23,6 +27,7 @@ export function Picks() {
   const [hasSaved, setHasSaved] = useState(false);
   const [status, setStatus] = useState<{ kind: 'ok' | 'error'; text: string } | null>(null);
   const [saving, setSaving] = useState(false);
+  const [showSaved, setShowSaved] = useState(false);
   const [loadError, setLoadError] = useState('');
 
   useEffect(() => {
@@ -92,7 +97,7 @@ export function Picks() {
       if (error) throw error;
       setDirty(false);
       setHasSaved(true);
-      setStatus({ kind: 'ok', text: 'Saved ✓ You can keep editing until the lock.' });
+      setShowSaved(true);
     } catch (e) {
       setStatus({ kind: 'error', text: errorMessage(e) });
     } finally {
@@ -127,10 +132,13 @@ export function Picks() {
         ) : (
           <>
             Picks lock in <strong>{formatCountdown(lockMs)}</strong>
-            <span className="muted"> · {new Date(season.lock_at).toLocaleString([], { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' })}</span>
+            <span className="muted"> · {lockLabel(season.lock_at)}</span>
           </>
         )}
       </div>
+      {!locked && hasSaved && !dirty && (
+        <p className="saved-note">✅ These are your saved picks. Change anything and tap Save again before the lock.</p>
+      )}
 
       <section>
         <h2>Seeding</h2>
@@ -212,6 +220,15 @@ export function Picks() {
         </div>
       )}
       {status && <p className={status.kind === 'ok' ? 'success' : 'error'}>{status.text}</p>}
+      {showSaved && (
+        <SavedModal
+          oneSeeds={{ East: order.East[0], West: order.West[0] }}
+          bonus={bonus}
+          missing={missing}
+          lockLabel={lockLabel(season.lock_at)}
+          onClose={() => setShowSaved(false)}
+        />
+      )}
     </div>
   );
 }
