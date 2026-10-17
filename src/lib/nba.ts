@@ -50,6 +50,11 @@ export const AWARDS = [
   { key: 'coy', label: 'Coach of the Year', options: COACHES },
 ] as const;
 
+// Look up an award pick (a name) to show its headshot.
+export const PERSON_BY_NAME = Object.fromEntries(
+  [...PLAYERS, ...COACHES].map((p) => [p.name, p]),
+) as Record<string, Person>;
+
 export const BONUS_LABELS: Record<string, string> = {
   east_champ: 'East champ',
   west_champ: 'West champ',

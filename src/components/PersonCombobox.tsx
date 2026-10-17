@@ -138,7 +138,7 @@ export function PersonCombobox({ options, value, disabled, onChange }: Props) {
 }
 
 // Headshot when ESPN has one, otherwise (or if it fails to load) the team logo.
-function Avatar({ person }: { person: Person }) {
+export function Avatar({ person }: { person: Person }) {
   const [failed, setFailed] = useState(false);
   if (!person.headshotId || failed) {
     return (

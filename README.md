@@ -17,7 +17,8 @@ npm run dev
 2. **SQL Editor:** paste and run each file, in order (one at a time):
    1. `supabase/migrations/0001_init.sql`
    2. `supabase/migrations/0002_award_list_and_lock_guard.sql`
-   3. `supabase/award_options.sql`
+   3. `supabase/migrations/0003_admin_sees_picks_early.sql`
+   4. `supabase/award_options.sql`
 3. **SQL Editor:** set the group passcode (8+ characters):
    ```sql
    update app_config set passcode_hash = extensions.crypt('YOUR-PASSCODE', extensions.gen_salt('bf'));

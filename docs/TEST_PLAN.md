@@ -36,7 +36,7 @@ Note anything that fails and we'll go through it together.
 
 ## C. Privacy before the lock
 
-20. **Group status.** Friend saves only seeding. On your Group tab:
+20. **Group status.** Friend saves only seeding. (As the friend, before the lock: tap **View** next to your admin's name → popup says *Hidden until opening night!* with a countdown; tap View on yourself → your own picks.) On your Group tab:
     ✅ Both names listed; friend shows *Seeding ✓* and *Picks 0/9*. **No team picks visible.**
 
 ## D. Logging in elsewhere
@@ -62,7 +62,7 @@ The app won't let anyone move a lock that has passed, so simulate it from Supaba
 29. **Lock it.** Supabase → SQL Editor:
     `update seasons set lock_at = now() where id = '2026-27';`
     Refresh the app.
-    ✅ Picks page is read-only with 🔒 banner; no Save bar. Group tab shows everyone's seeding grid (sorted by group average) and bonus picks table.
+    ✅ Picks page is read-only with 🔒 banner; no Save bar. Group tab shows everyone's **League-Wide Seeding** grid (sorted by group average) and **League-Wide Picks** table. Tap **View** next to a friend in Who's in: a popup shows their East and West seeding (side by side on desktop, stacked on phone) and their picks with logos and headshots.
 30. **Late joiner.** In a fresh private window, join as `LateTest`.
     ✅ Picks page says preseason picks are closed.
 31. **Admin can't reopen.** Admin page → change the preseason lock to tomorrow → Save.

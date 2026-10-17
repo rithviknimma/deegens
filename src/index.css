@@ -129,6 +129,7 @@ input:disabled, select:disabled { opacity: 0.7; }
   font-size: 0.95rem;
 }
 .banner.locked { background: var(--surface); border-color: var(--border); }
+.banner.admin-preview { background: rgba(255, 196, 0, 0.1); border-color: rgba(255, 196, 0, 0.4); }
 
 /* Seeding */
 .seed-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
@@ -142,7 +143,7 @@ input:disabled, select:disabled { opacity: 0.7; }
 }
 .seed-row.dragging { position: relative; z-index: 5; border-color: var(--accent); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5); }
 .seed-num { width: 22px; font-weight: 800; color: var(--accent); text-align: right; font-variant-numeric: tabular-nums; }
-.seed-name { flex: 1; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.seed-name { flex: 1; min-width: 0; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .seed-actions { display: flex; gap: 2px; }
 .icon-btn {
   width: 36px; height: 36px;
@@ -299,3 +300,37 @@ a { color: var(--accent); }
   .confetti { display: none; }
   .modal, .modal-ball, .modal-backdrop { animation: none; }
 }
+
+/* Group: one friend's picks in a modal. The header stays put; only the body scrolls. */
+.modal.wide {
+  max-width: 640px; max-height: calc(100dvh - 32px); padding: 0; text-align: left;
+  display: flex; flex-direction: column; overflow: hidden;
+}
+.modal-header {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 12px 12px 12px 20px; border-bottom: 1px solid var(--border);
+}
+.modal.wide .modal-header h2 { margin: 0; font-size: 1.2rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.modal-body {
+  padding: 4px 20px 20px;
+  /* Scroll up and down only; never side to side, and don't scroll the page behind. */
+  overflow-y: auto; overflow-x: hidden; overscroll-behavior: contain; touch-action: pan-y;
+}
+.section-title { margin: 20px 0 10px; font-size: 1rem; }
+.modal-close {
+  position: absolute; top: 10px; right: 10px; width: 36px; height: 36px; border-radius: 50%;
+  background: var(--surface-2); border: 0; color: var(--muted); cursor: pointer;
+}
+.modal-header .modal-close { position: static; flex-shrink: 0; }
+.conf-columns { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; }
+.conf-columns h4 { margin: 0 0 8px; font-size: 0.85rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+@media (max-width: 600px) {
+  /* minmax(0, …) lets the column shrink so long names get "…" instead of widening the column. */
+  .conf-columns { grid-template-columns: minmax(0, 1fr); }
+  .modal-header { padding-left: 14px; }
+  .modal-body { padding: 4px 14px 14px; }
+}
+.pick-list { list-style: none; margin: 0; padding: 4px 16px; }
+.pick-list li { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 10px 0; min-height: 56px; border-bottom: 1px solid var(--border); }
+.pick-list li:last-child { border-bottom: 0; }
+.pick-value { display: flex; align-items: center; gap: 8px; min-width: 0; font-weight: 600; text-align: right; }

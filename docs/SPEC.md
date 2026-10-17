@@ -33,7 +33,8 @@ A private NBA prediction game for a small group of friends (<15). Yearly seasons
 - **Seeding:** rank all 15 teams in each conference.
 - **Bonus picks:** #1 seed in each conference, each conference champion, NBA champion.
 - **Awards:** MVP, ROY, DPOY, 6MOY, MIP, COY. Names must come from a fixed list (players / rookies / coaches from ESPN rosters), enforced in the app and DB (`award_options`).
-- Picks are **hidden from others until lock**, then revealed.
+- Picks are **hidden from others until lock**, then revealed. Exception: the **admin can see all picks early** (Group tab shows an "Admin preview" banner); disclosed in the How It Works FAQ.
+- The Group tab's **Who's in** list has a **View** button per friend. Before the lock it pops up "Hidden until opening night!" (except your own picks, or for the admin); after the lock it pops up that friend's seeding and picks. Below it: **League-Wide Seeding** grid (group averages) and **League-Wide Picks** table.
 - Partial picks count as-is; missing picks score 0.
 - The lock can't be moved once it has passed (DB-enforced) — that would reopen revealed picks.
 - Late joiners (after lock) can join and play daily picks + bracket; preseason = 0.

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { PicksModal } from '../components/PicksModal';
 import { TeamLogo } from '../components/TeamLogo';
 import { useAuth } from '../lib/auth';
 import { AWARDS, BONUS_LABELS, TEAM_BY_ID, teamsIn, tierOf, type Conference } from '../lib/nba';
@@ -19,9 +20,12 @@ export function Group() {
   const [seeds, setSeeds] = useState<SeedPick[]>([]);
   const [bonus, setBonus] = useState<BonusPick[]>([]);
   const [conf, setConf] = useState<Conference>('East');
+  const [viewing, setViewing] = useState<Status | null>(null);
   const [error, setError] = useState('');
 
   const locked = season ? now >= new Date(season.lock_at).getTime() : false;
+  // The admin can see everyone's picks before the lock (the database allows it too).
+  const canSeePicks = locked || !!player?.is_admin;
 
   useEffect(() => {
     (async () => {
@@ -37,9 +41,9 @@ export function Group() {
     })();
   }, []);
 
-  // Everyone's picks become readable once the season locks (enforced by RLS).
+  // Everyone's picks become readable once the season locks, or early for the admin (enforced by RLS).
   useEffect(() => {
-    if (!season || !locked) return;
+    if (!season || !canSeePicks) return;
     (async () => {
       const [s, b] = await Promise.all([
         supabase.from('seed_picks').select('player_id, team_id, conference, seed').eq('season_id', season.id),
@@ -49,34 +53,53 @@ export function Group() {
       setSeeds(s.data);
       setBonus(b.data);
     })();
-  }, [season, locked]);
+  }, [season, canSeePicks]);
 
   if (error) return <p className="error">{error}</p>;
   if (!season) return <p className="muted">Loading…</p>;
 
-  if (!locked) {
+  const statusList = (
+    <>
+      <h2>Who's in ({status.length})</h2>
+      <ul className="card status-list">
+        {status.map((p) => (
+          <li key={p.player_id}>
+            <span>
+              {p.display_name}
+              {p.player_id === player?.id && <span className="muted"> (you)</span>}
+            </span>
+            <span className="chips">
+              <span className={`chip ${p.seed_count === 30 ? 'done' : ''}`}>Seeding {p.seed_count === 30 ? '✓' : '–'}</span>
+              <span className={`chip ${p.bonus_count === BONUS_TOTAL ? 'done' : ''}`}>
+                Picks {p.bonus_count}/{BONUS_TOTAL}
+              </span>
+              <button className="btn small" onClick={() => setViewing(p)}>
+                View
+              </button>
+            </span>
+          </li>
+        ))}
+      </ul>
+      {viewing && (
+        <PicksModal
+          playerId={viewing.player_id}
+          name={viewing.display_name}
+          seasonId={season.id}
+          lockAt={season.lock_at}
+          canView={canSeePicks || viewing.player_id === player?.id}
+          onClose={() => setViewing(null)}
+        />
+      )}
+    </>
+  );
+
+  if (!canSeePicks) {
     return (
       <div>
         <div className="banner">
           Picks are hidden until the lock: <strong>{formatCountdown(new Date(season.lock_at).getTime() - now)}</strong>
         </div>
-        <h2>Who's in ({status.length})</h2>
-        <ul className="card status-list">
-          {status.map((p) => (
-            <li key={p.player_id}>
-              <span>
-                {p.display_name}
-                {p.player_id === player?.id && <span className="muted"> (you)</span>}
-              </span>
-              <span className="chips">
-                <span className={`chip ${p.seed_count === 30 ? 'done' : ''}`}>Seeding {p.seed_count === 30 ? '✓' : '–'}</span>
-                <span className={`chip ${p.bonus_count === BONUS_TOTAL ? 'done' : ''}`}>
-                  Picks {p.bonus_count}/{BONUS_TOTAL}
-                </span>
-              </span>
-            </li>
-          ))}
-        </ul>
+        {statusList}
       </div>
     );
   }
@@ -95,9 +118,17 @@ export function Group() {
 
   return (
     <div>
-      <div className="banner locked">🔒 Picks locked. Here's what everyone said.</div>
+      {locked ? (
+        <div className="banner locked">🔒 Picks locked. Here's what everyone said.</div>
+      ) : (
+        <div className="banner admin-preview">
+          👀 <strong>Admin preview.</strong> Everyone else sees these when picks lock in{' '}
+          <strong>{formatCountdown(new Date(season.lock_at).getTime() - now)}</strong>.
+        </div>
+      )}
+      {statusList}
 
-      <h2>Seeding</h2>
+      <h2>League-Wide Seeding</h2>
       <div className="tabs" role="tablist">
         {(['East', 'West'] as const).map((c) => (
           <button key={c} role="tab" aria-selected={conf === c} className={conf === c ? 'active' : ''} onClick={() => setConf(c)}>
@@ -137,7 +168,7 @@ export function Group() {
         </table>
       </div>
 
-      <h2>Bonus picks</h2>
+      <h2>League-Wide Picks</h2>
       <div className="table-wrap">
         <table className="grid">
           <thead>

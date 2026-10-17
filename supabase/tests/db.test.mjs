@@ -6,7 +6,7 @@ const db = new PGlite({ extensions: { pgcrypto } });
 // Runs the migrations against PGlite (Postgres in WASM) with a stub of Supabase's auth schema.
 // Usage: npm run test:db
 const root = new URL('../', import.meta.url);
-const files = ['migrations/0001_init.sql', 'migrations/0002_award_list_and_lock_guard.sql', 'award_options.sql'];
+const files = ['migrations/0001_init.sql', 'migrations/0002_award_list_and_lock_guard.sql', 'migrations/0003_admin_sees_picks_early.sql', 'award_options.sql'];
 const migrations = await Promise.all(files.map((f) => readFile(new URL(f, root), 'utf8')));
 
 // Minimal stand-in for Supabase's roles and auth schema.
@@ -88,8 +88,12 @@ await expectErr('unknown category', () => as(U1, `select save_bonus_picks('2026-
 await expectOk('clearing a pick deletes it', () => as(U1, `select save_bonus_picks('2026-27', $1)`, [{ mvp: '' }]));
 await expectOk('mvp removed', () => as(U1, `select * from bonus_picks where category = 'mvp'`), (r) => r.length === 0);
 
-await expectOk('others hidden before lock', () => as(U2, `select * from seed_picks`), (r) => r.length === 0);
-await expectOk('own picks visible', () => as(U1, `select * from seed_picks`), (r) => r.length === 30);
+await expectOk('friend saves East seeds', () => as(U2, `select save_seed_picks('2026-27', 'East', $1)`, [east]));
+await expectOk('admin sees friend picks before lock', () => as(U1, `select * from seed_picks where player_id = $1`, [p2]), (r) => r.length === 15);
+await expectOk('friend cannot see admin picks before lock', () => as(U2, `select * from seed_picks where player_id = $1`, [p1]), (r) => r.length === 0);
+await expectOk('non-member sees nothing before lock', () => as(U3, `select * from seed_picks`), (r) => r.length === 0);
+await expectOk('others hidden before lock', () => as(U2, `select * from seed_picks where player_id <> $1`, [p2]), (r) => r.length === 0);
+await expectOk('own picks visible', () => as(U1, `select * from seed_picks where player_id = $1`, [p1]), (r) => r.length === 30);
 await expectOk('status shows counts, not picks', () => as(U2, `select * from submission_status('2026-27')`), (r) => r.find((x) => x.display_name === 'Rithvik').seed_count === 30);
 
 await expectErr('award not on list', () => as(U1, `select save_bonus_picks('2026-27', $1)`, [{ mvp: 'Shai' }]), 'list');
@@ -101,7 +105,7 @@ await expectOk('clear them again', () => as(U1, `select save_bonus_picks('2026-2
 await expectOk('admin can move lock later before it passes', () => as(U1, `select admin_set_lock('2026-27', now() + interval '2 days', null)`));
 await expectErr('non-admin cannot move lock', () => as(U2, `select admin_set_lock('2026-27', now() - interval '1 minute', null)`), 'Admins only');
 await expectOk('admin moves lock to past', () => as(U1, `select admin_set_lock('2026-27', now() - interval '1 minute', null)`));
-await expectOk('others revealed after lock', () => as(U2, `select * from seed_picks`), (r) => r.length === 30);
+await expectOk('others revealed after lock', () => as(U2, `select * from seed_picks where player_id = $1`, [p1]), (r) => r.length === 30);
 await expectOk('bonus revealed after lock', () => as(U2, `select * from bonus_picks`), (r) => r.length === 3);
 await expectErr('cannot move lock after it passed', () => as(U1, `select admin_set_lock('2026-27', now() + interval '3 days', null)`), "can't be moved");
 await expectOk('setting playoff lock still allowed after preseason lock', () => as(U1, `select admin_set_lock('2026-27', (select lock_at from seasons), now() + interval '180 days')`));

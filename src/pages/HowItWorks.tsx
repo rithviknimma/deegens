@@ -53,7 +53,7 @@ export function HowItWorks({ showBack = false }: { showBack?: boolean }) {
           <li><strong>Forgot your PIN?</strong> Ask the admin to reset it.</li>
           <li><strong>New phone or laptop?</strong> Log in with your name and PIN.</li>
           <li><strong>Joined after opening tip?</strong> You can still play daily picks and the bracket. Preseason picks are closed.</li>
-          <li><strong>Can people see my picks?</strong> Not until the lock. Before then, they can only see whether you've submitted.</li>
+          <li><strong>Can people see my picks?</strong> Not until the lock. Before then, they can only see whether you've submitted. The admin can see picks early to help fix problems.</li>
           <li><strong>Postponed game?</strong> Picks on it don't count.</li>
         </ul>
       </details>
