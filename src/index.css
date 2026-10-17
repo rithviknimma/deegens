@@ -80,6 +80,8 @@ button, input, select { font: inherit; color: inherit; }
 .form { display: flex; flex-direction: column; gap: 14px; }
 .form label, .form .field { display: flex; flex-direction: column; gap: 6px; font-size: 0.9rem; font-weight: 600; }
 input, select {
+  /* iOS Safari zooms into fields with text under 16px; keep them at 16px+ (pinch-zoom still works). */
+  font-size: max(16px, 1rem);
   background: var(--surface-2);
   border: 1px solid var(--border);
   border-radius: 8px;
